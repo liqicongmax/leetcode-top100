@@ -121,4 +121,46 @@ public class Solution {
         return null;
     }
 
+    public TreeNode parent(TreeNode root, TreeNode p, TreeNode q) {
+        if(root==null||p==root||q==root){
+            return root;
+        }
+
+        TreeNode left=parent(root.left,p,q);
+        TreeNode right=parent(root.right,p,q);
+
+        if(left!=null&&right!=null){
+            return root;
+        }else if(left!=null){
+            return left;
+        }else if(right!=null){
+            return right;
+        }
+        return null;
+    }
+
+    public int dajie(TreeNode root){
+        int[] res=helper(root);
+        return Math.max(res[0],res[1]);
+    }
+
+    /**
+     * 从根节点开始和不从根节点开始
+     * @param root
+     * @return
+     */
+    public int[] helper(TreeNode root){
+        if(root==null){
+            return new int[2];
+        }
+        int[] res=new int[2];
+        int[] left=helper(root.left);
+        int[] right=helper(root.right);
+
+        res[0]=Math.max(left[0],left[1])+Math.max(right[0],right[1]);
+        res[1]=root.val+left[0]+right[0];
+
+        return res;
+
+    }
 }

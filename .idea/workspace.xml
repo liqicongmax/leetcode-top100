@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259c2820-0ffe-4e4e-9c2d-02e9248aaa08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/leetcode337/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/leetcode236/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/leetcode236/Solution.java" afterDir="false" />
     </list>
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tree/leetcode236/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+            <state relative-caret-position="693">
+              <caret line="159" column="36" lean-forward="true" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tree/leetcode337/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="96" column="36" lean-forward="true" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+            <state relative-caret-position="733">
+              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/tree/leetcode102/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="717">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,16 +121,16 @@
         <option value="$PROJECT_DIR$/src/tree/leetcode106/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/leetcode114/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/leetcode226/Solution.java" />
-        <option value="$PROJECT_DIR$/src/tree/leetcode236/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/leetcode337/Solution.java" />
+        <option value="$PROJECT_DIR$/src/tree/leetcode236/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="920" />
+    <option name="y" value="408" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579405813931" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579419608503" />
     <property name="last_opened_file_path" value="D:/rocketmqtest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -230,7 +229,7 @@
       <workItem from="1579066648248" duration="9721000" />
       <workItem from="1579136652573" duration="94000" />
       <workItem from="1579247772609" duration="5681000" />
-      <workItem from="1579395987438" duration="9060000" />
+      <workItem from="1579395987438" duration="11434000" />
     </task>
     <task id="LOCAL-00001" summary="dzd">
       <created>1579075751855</created>
@@ -246,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579396729177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="小偷偷盗问题">
+      <created>1579410885349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579410885349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60821000" />
+    <option name="totallyTimeSpent" value="63195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +310,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dzd" />
     <MESSAGE value="二叉树的最近公共祖先" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的最近公共祖先" />
+    <MESSAGE value="小偷偷盗问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="小偷偷盗问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/tree/TreeNode.java">
@@ -398,17 +405,7 @@
     <entry file="file://$PROJECT_DIR$/src/tree/leetcode102/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/leetcode236/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -417,8 +414,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/leetcode337/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/leetcode236/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
-          <caret line="96" column="36" lean-forward="true" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+          <caret line="159" column="36" lean-forward="true" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
