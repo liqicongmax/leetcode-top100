@@ -76,4 +76,49 @@ public class Solution {
         ((LinkedList<TreeNode>) temp).removeLast();
     }
 
+    /**
+     * 最近公共祖先
+     * @param root
+     * @param p
+     * @param q
+     * @return
+     * 我们使用DFS搜索每一个节点的左右子树：
+     * 1、若子树上存在p和q的公共节点，返回此公共节点
+     * 2、若不存在公共节点，但是存在p或q任意一个节点，返回此节点
+     * 3、若不存在公共、p、q节点，则返回null。
+     *
+     * 那么，有以下几个结论：
+     * 0、若当前节点为null、p、q之一，直接返回当前节点
+     * 1、若左子树上存在公共节点（返回值非p、q），则函数返回值为左子树返回值，不需再遍历右子树
+     * 2、若左子树返回null，则函数返回值为右子树返回值
+     * 3、若左子树、右子树返回值均为非null，则肯定为一个p，一个q，则公共节点为当前节点
+     * 4、最后一种情况，即左子树返回非null，右子树返回null，则函数返回值为左子树返回值
+     *
+     * 针对p是q的子节点这种特殊情况，上述方案依然可行（但就没有办法剪枝了，可以考虑针对此情况加一个标记，不再遍历右子树）。
+     *
+     * 链接：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/java-dfs-jian-zhi-9ms9244-by-lava-4/
+     *
+     */
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
+        // LCA 问题
+        if (root == null) {
+            return null;
+        }
+        if (root == p || root == q) {
+            return root;
+        }
+        // 去左子树找
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
+        // 左右子树的
+        if (left != null && right != null) {
+            return root;
+        } else if (left != null) {
+            return left;
+        } else if (right != null) {
+            return right;
+        }
+        return null;
+    }
+
 }
