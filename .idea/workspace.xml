@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259c2820-0ffe-4e4e-9c2d-02e9248aaa08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode152/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/badtest/ConcurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/badtest/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/badtest/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/badtest/ZZT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode221/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/badtest/OOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/badtest/OOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode62/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="960">
               <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
                 <element signature="e#1124#1125#0" expanded="true" />
@@ -42,58 +49,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode64/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="47" column="9" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode70/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode72/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode96/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode121/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode139/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="360">
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
@@ -102,17 +60,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode152/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            <state relative-caret-position="680">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode221/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+              <folding>
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +125,17 @@
       <find>in</find>
       <find>root</find>
       <find>preMax</find>
+      <find>add(</find>
+      <find>add(E</find>
+      <find>compare</find>
+      <find>&quot;</find>
+      <find>len</find>
     </findStrings>
     <replaceStrings>
       <replace>inorder</replace>
       <replace>temp</replace>
       <replace>max</replace>
+      <replace>'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -159,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/tree/leetcode226/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/leetcode337/Solution.java" />
         <option value="$PROJECT_DIR$/src/tree/leetcode236/Solution.java" />
-        <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode53/Solution.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode62/Solution.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode64/Solution.java" />
@@ -169,15 +167,24 @@
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode121/Solution.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode139/Solution.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode152/Solution.java" />
+        <option value="$PROJECT_DIR$/src/badtest/ConcurrencyTest.java" />
+        <option value="$PROJECT_DIR$/src/badtest/OOM.java" />
+        <option value="$PROJECT_DIR$/src/badtest/ThreadPool.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java" />
+        <option value="$PROJECT_DIR$/src/badtest/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java" />
+        <option value="$PROJECT_DIR$/src/badtest/ZZT.java" />
+        <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode221/Solution.java" />
+        <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java" />
+        <option value="$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="920" />
-    <option name="y" value="408" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -203,7 +210,20 @@
               <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-top100" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="badtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dynamicprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
@@ -216,14 +236,35 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="leetcode-top100" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="leetcodeTop100" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="leetcode-top100" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="leetcodeTop100" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="leetcode-top100" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="leetcodeTop100" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="badtest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582167453896" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yyzt" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582547724741" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pc-download-spider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -241,13 +282,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode62.Solution" />
+  <component name="RunManager" selected="Application.EliminateDuplicateNumbers">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="badtest.DeadLock" />
       <module name="leetcodeTop100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogram.leetcode62.*" />
+          <option name="PATTERN" value="badtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EliminateDuplicateNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huaweijishi.EliminateDuplicateNumbers" />
+      <module name="leetcodeTop100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huaweijishi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode5.Solution" />
+      <module name="leetcodeTop100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogram.leetcode5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode221.Solution" />
+      <module name="leetcodeTop100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicprogram.leetcode221.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,50 +336,11 @@
       </method>
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode70.Solution" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode279.Solution" />
       <module name="leetcodeTop100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicprogram.leetcode70.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode96.Solution" />
-      <module name="leetcodeTop100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogram.leetcode96.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode152.Solution" />
-      <module name="leetcodeTop100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogram.leetcode152.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogram.leetcode198.Solution" />
-      <module name="leetcodeTop100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicprogram.leetcode198.*" />
+          <option name="PATTERN" value="dynamicprogram.leetcode279.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.EliminateDuplicateNumbers" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.DeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +387,9 @@
       <workItem from="1580780206075" duration="4500000" />
       <workItem from="1580865780006" duration="5660000" />
       <workItem from="1580897434979" duration="2528000" />
-      <workItem from="1582161343108" duration="5749000" />
+      <workItem from="1582161343108" duration="16885000" />
+      <workItem from="1582267642524" duration="10223000" />
+      <workItem from="1582544511937" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="dzd">
       <created>1579075751855</created>
@@ -383,11 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580716580344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2dynamicP">
+      <created>1582167530853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582167530853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90312000" />
+    <option name="totallyTimeSpent" value="114799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +452,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30597016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -445,24 +495,39 @@
     <MESSAGE value="小偷偷盗问题" />
     <MESSAGE value="最长回文子串" />
     <MESSAGE value="真不容易" />
-    <option name="LAST_COMMIT_MESSAGE" value="真不容易" />
+    <MESSAGE value="2dynamicP" />
+    <option name="LAST_COMMIT_MESSAGE" value="2dynamicP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java</url>
-          <line>30</line>
-          <properties class="dynamicprogram.leetcode198.Solution" method="rob">
+          <url>file://$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java</url>
+          <line>34</line>
+          <properties class="dynamicprogram.leetcode5.Solution" method="longestPalindrome">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java</url>
+          <line>26</line>
+          <properties class="dynamicprogram.leetcode279.Solution" method="numSquares">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java</url>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -588,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode64/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="940">
@@ -634,21 +692,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode139/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/badtest/OOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="220">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode62/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/badtest/ConcurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/com/sun/corba/se/impl/orbutil/DenseIntMapImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="243" column="29" selection-start-line="243" selection-start-column="29" selection-end-line="243" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="413" column="7" lean-forward="true" selection-start-line="413" selection-start-column="7" selection-end-line="413" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/ThsSoftware/jdk/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="132" column="29" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/badtest/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/badtest/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/badtest/ZZT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -663,17 +783,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode62/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode139/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode152/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        <state relative-caret-position="680">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode198/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="860">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode221/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

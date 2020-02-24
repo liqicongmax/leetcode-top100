@@ -50,7 +50,9 @@ public class Solution {
                         dp[i][j]=1;
                     }
                     if(dp[i][j]>max) {
+                        //翻转前我i位置的字符应该在pre下标
                         int pre=len-i-1;
+                        //如果我这是回文的话，dp[i][j]表示回文长度，翻转前的i比较小，加上回文长度，如果等于现在j的位置，说明是正确的回文
                         if(pre+dp[i][j]-1==j) {
                             max = dp[i][j];
                             str = s.substring(j - max + 1, j + 1);
