@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259c2820-0ffe-4e4e-9c2d-02e9248aaa08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/badtest/ConcurrencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/badtest/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/badtest/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/badtest/ZZT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode221/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/huaweijishi/huaweimianshi/Leetcode479.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/huaweijishi/huaweimianshi/OneToN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/badtest/OOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/badtest/OOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogram/leetcode5/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="700">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="e#1153#1154#0" expanded="true" />
                 <element signature="e#1218#1219#0" expanded="true" />
@@ -97,15 +90,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
-              <folding>
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/huaweijishi/huaweimianshi/Leetcode479.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/huaweijishi/huaweimianshi/OneToN.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -177,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode221/Solution.java" />
         <option value="$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java" />
         <option value="$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java" />
+        <option value="$PROJECT_DIR$/src/huaweijishi/huaweimianshi/Leetcode479.java" />
+        <option value="$PROJECT_DIR$/src/huaweijishi/huaweimianshi/OneToN.java" />
       </list>
     </option>
   </component>
@@ -229,6 +238,19 @@
               <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-top100" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="huaweijishi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="huaweijishi" type="462c0819:PsiDirectoryNode" />
+              <item name="huaweimianshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode-top100" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -263,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582547724741" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582717559490" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pc-download-spider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -390,6 +412,8 @@
       <workItem from="1582161343108" duration="16885000" />
       <workItem from="1582267642524" duration="10223000" />
       <workItem from="1582544511937" duration="3128000" />
+      <workItem from="1582592690851" duration="3474000" />
+      <workItem from="1582711851556" duration="2782000" />
     </task>
     <task id="LOCAL-00001" summary="dzd">
       <created>1579075751855</created>
@@ -437,7 +461,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114799000" />
+    <option name="totallyTimeSpent" value="121055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,7 +476,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32249466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -824,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprogram/leetcode279/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="700">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="e#1153#1154#0" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
@@ -835,12 +859,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/huaweijishi/EliminateDuplicateNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
-          <folding>
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huaweijishi/huaweimianshi/Leetcode479.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huaweijishi/huaweimianshi/OneToN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
