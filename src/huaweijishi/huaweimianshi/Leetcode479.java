@@ -29,6 +29,6 @@ public class Leetcode479 {
      */
     public int largestPalindrome(int n) {
         //如果n=3找到0*0到100到100之前的最大回文数
-
+        return 0;
     }
 }
