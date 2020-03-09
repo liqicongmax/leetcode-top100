@@ -67,6 +67,7 @@ public class Leetcode329 {
         max = Math.max(max, loop(mat, mat[i][j], dp, i, j - 1));
         max = Math.max(max, loop(mat, mat[i][j], dp, i, j + 1));
         dp[i][j] = max + 1;
+        //
         return dp[i][j];
     }
 

@@ -43,7 +43,7 @@ public class Solution {
             //1.昨天持股昨天不动，2.昨天不持股昨天花钱买了
             dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
 
-            //第i天冷冻期的最大收益
+            //第i天是冷冻期的最大收益
             //只能是昨天持股昨天卖了
             dp[i][2] = dp[i - 1][1] + prices[i];
         }
