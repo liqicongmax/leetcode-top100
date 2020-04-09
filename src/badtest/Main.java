@@ -1,16 +1,31 @@
 package badtest;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) {
-        new Main().group();
+//        new Main().group();
+        List<User> uzers=new ArrayList<>();
+        //串行流对象
+        Stream<User> stream=uzers.stream();
+
+        //并行流对象
+        Stream<User> parallelStream=uzers.parallelStream();
+
+        //filter过滤出符合条件的
+        List<User> users=stream.filter(user -> user.age>10&&user.name!=null).collect(Collectors.toList());
+
+        //map遍历修改对象
+
+        List<Integer> ages=stream.map(user -> user.age).collect(Collectors.toList());
+
+        List<User> uzr=stream.sorted((user1,user2)->user1.age>user2.age?1:0).collect(Collectors.toList());
+
+        Map<Integer,User> userMap=stream.collect(Collectors.toMap(user->user.age ,user->user));
     }
 
     public void group() {
