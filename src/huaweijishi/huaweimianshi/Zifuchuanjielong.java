@@ -27,6 +27,13 @@ public class Zifuchuanjielong {
                 helper(words[i]);
             }
         }
+
+
+
+
+
+
+        return 1;
     }
 
     public void helper(String startWord){
